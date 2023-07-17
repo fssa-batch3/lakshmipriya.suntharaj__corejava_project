@@ -16,7 +16,7 @@ public class DuplicateTasks {
 		
 		List<String> RCityList = new ArrayList<String>();
 		
-		for (String city : cityList) {
+		for (String city : cityList) { 
             if (!RCityList.contains(city)) {
                 RCityList.add(city);
             }
