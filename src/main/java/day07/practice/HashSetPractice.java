@@ -13,16 +13,13 @@ public class HashSetPractice {
 		numbers.add(2);
 		numbers.add(3);
 		numbers.add(2);
-
 		System.out.println("Using ArrayList :" + numbers);
 
-		
 		HashSet<Integer> numberset = new HashSet<>();
 		numberset.add(1);
 		numberset.add(2);
 		numberset.add(3);
 		numberset.add(2);
-
 		System.out.println("Using Set :" + numberset);
 		
 	}
