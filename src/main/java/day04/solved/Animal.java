@@ -85,7 +85,7 @@ class Giraffe extends Animal {
 
 }
 
-public class Animalsolved {
+public class Animal {
 	public static void main(String[] args) {
 		Lion lion1 = new Lion();
 		lion1.setName("Simba");

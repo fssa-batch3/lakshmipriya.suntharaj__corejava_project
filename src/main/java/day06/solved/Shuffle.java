@@ -14,7 +14,7 @@ public class Shuffle {
 		list.add("cse");
 		list.add("cse");
 		list.add("eee");
-		Collections.shuffle(list);
+		//Collections.shuffle(list);
 		System.out.println(list);
 	}
 }
