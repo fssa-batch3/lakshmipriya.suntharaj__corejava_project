@@ -38,7 +38,7 @@ public class TaskList {
         tasks.add(new Task(3, "Coding", "2022-10-22"));
         tasks.add(new Task(5, "Product Design", "2022-10-01"));
         tasks.add(new Task(1, "Software Design", "2022-10-07"));
-        tasks.add(new Task(3, "Coding", "2022-10-22")); // Duplicate entry for testing
+        tasks.add(new Task(3, "Coding", "2022-10-22")); 
 
        
         Collections.sort(tasks);
