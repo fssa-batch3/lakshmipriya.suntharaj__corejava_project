@@ -37,7 +37,7 @@ public class TestUserRegistration {
 	 public static void main(String[] args) {
 	        UserManager userManager = new UserManager();
 
-	        // Adding some users for demonstration purposes
+	        
 	        User user1 = new User(1, "John", "john@example.com");
 	        User user2 = new User(2, "Alice", "alice@example.com");
 
@@ -45,7 +45,7 @@ public class TestUserRegistration {
 	            userManager.register(user1);
 	            userManager.register(user2);
 	            
-	            // Trying to register a user with the same email ID as user1
+	           
 	            User duplicateUser = new User(3, "Jane", "john@example.com");
 	            userManager.register(duplicateUser);
 	        } catch (UserAlreadyExistsException e) {
