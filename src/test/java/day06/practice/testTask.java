@@ -2,10 +2,9 @@ package day06.practice;
 
 import java.util.ArrayList;
 
-public class Task {
-
-	 String taskName;
-	 int priority;
+public class testTask {
+	private String taskName;
+	private int priority;
 
 	public static void main(String[] args) {
 		
@@ -30,5 +29,7 @@ public class Task {
 	   
 		
 	}
+	
+
 	
 }

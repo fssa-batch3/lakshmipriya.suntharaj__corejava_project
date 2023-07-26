@@ -26,6 +26,7 @@ public class TestUserUpdatePassword {
 	        PreparedStatement pst = connection.prepareStatement(query);
 	        pst.setString(1, password);
 	        pst.setString(2, userName);
+	        
 	 
 	        int rows = pst.executeUpdate();
 	        System.out.println("No of rows updated" + rows);

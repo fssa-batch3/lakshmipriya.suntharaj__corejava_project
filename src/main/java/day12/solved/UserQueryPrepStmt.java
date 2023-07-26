@@ -4,14 +4,9 @@ package day12.solved;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-
 import day11.solved.*;
 
-/**
- * @author BharathwajSoundarara
- *
- */
+
 //Explain in class what is the difference between Statement and PreparedStatement 
 public class UserQueryPrepStmt {
 	public static void main(String[] args) throws Exception{
