@@ -21,7 +21,7 @@ class TaskDAO {
 
 	private static final String DB_URL = "jdbc:mysql://localhost:3306/project";
 	private static final String DB_USERNAME = "root";
-	private static final String DB_PASSWORD = "root";
+	private static final String DB_PASSWORD = "1234567890";
 
 	public void createTask(Task task) throws DAOException {
 		try (Connection connection = DriverManager.getConnection(DB_URL, DB_USERNAME, DB_PASSWORD)) {
